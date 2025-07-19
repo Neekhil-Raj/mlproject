@@ -53,7 +53,7 @@ class DataTransformation:
                 ]
             )
 
-            logging.info(f"Categorical incoding completed: {numerical_columns}")
+            logging.info("Categorical incoding completed")
             logging.info(f"Categorical Columns: {categorical_columns}")
 
             preprocessor=ColumnTransformer(
